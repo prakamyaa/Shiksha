@@ -1,1 +1,79 @@
+body {
+	background-color: #F2F2F2;
+	font-family: Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
 
+.header {
+	background-color: rgb(255, 47, 47);
+	color: #fffffff5;
+	text-align: center;
+	padding: 20px;
+}
+
+.menu {
+	background-color: #514caf;
+	overflow: hidden;
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu li {
+	float: left;
+}
+
+.menu li a {
+	display: block;
+	color: #FFF;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background-color: #3e8e41;
+}
+
+.content {
+	padding: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.footer {
+	background-color: #555;
+	color: #FFF;
+	text-align: center;
+	padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+    border: 4px solid #000;
+     box-shadow:6px solid red;
+
+}
+.logo
+{
+   text-align: center; 
+   
+}
+.material
+{
+    text-align: center;
+    
+    font-size: 30px;
+    
+}
+.Playlist
+{
+    text-align: center;
+    
+    font-size: 30px;
+    
+}
