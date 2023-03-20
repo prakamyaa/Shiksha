@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Student Portal App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Student Portal</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Login</h2>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          <button type="submit" onclick="login()">Login</button>
+        </form>
+      </section>
+      <section id="dashboard">
+        <h2>Dashboard</h2>
+        <ul>
+          <li>Course 1</li>
+          <li>Course 2</li>
+          <li>Course 3</li>
+        </ul>
+      </section>
+      <section id="grades">
+        <h2>Grades</h2>
+        <ul>
+          <li>Course 1: A</li>
+          <li>Course 2: B</li>
+          <li>Course 3: C</li>
+        </ul>
+      </section>
+      <section id="submit-assignment">
+        <h2>Submit Assignment</h2>
+        <form>
+          <label for="course">Course:</label>
+          <select id="course" name="course">
+            <option value="course1">Course 1</option>
+            <option value="course2">Course 2</option>
+            <option value="course3">Course 3</option>
+          </select>
+          <label for="assignment">Assignment:</label>
+          <input type="file" id="assignment" name="assignment">
+          <button type="submit" onclick="submitAssignment()">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; Student Portal App 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
